@@ -6,11 +6,11 @@ on:
       docker_image:
         description: 'Docker image to pull'
         required: true
-        default: 'nginx:latest'
+        default: 'nextcloud:latest'
 
 jobs:
   save-image:
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
 
     permissions:
       contents: write  
