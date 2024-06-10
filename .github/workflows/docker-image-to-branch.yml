@@ -10,7 +10,7 @@ on:
 
 jobs:
   save-image:
-    runs-on: ubuntu-latest
+    runs-on: Alpine-latest
 
     permissions:
       contents: write  
